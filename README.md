@@ -16,7 +16,11 @@ Database API- The database API's will handle interactions with the database(can 
 View - EJS view components
 
 
-
+Load database strings:
+echo "export HR_USER=hr" >> ~/.bashrc
+echo "export HR_PASSWORD=oracle" >> ~/.bashrc
+echo "export HR_CONNECTIONSTRING=0.0.0.0/orcl" >> ~/.bashrc
+source ~/.bashrc
 
 How to start the express server:
 Command to start the web server    ->node.js .
