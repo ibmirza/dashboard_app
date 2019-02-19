@@ -23,5 +23,5 @@ echo "export HR_CONNECTIONSTRING=0.0.0.0/orcl" >> ~/.bashrc
 source ~/.bashrc
 
 How to start the express server:
-Command to start the web server    ->node.js .
+Command to start the web server    ->nodejs .
 Command to shutdown the web server ->Ctrl C
